@@ -9,6 +9,8 @@ Domain: Video Games
 # import some standard modules first - how many can you make use of?
 import math
 
+import statistics
+
 from util_datafun_logger import setup_logger
 logger, logname = setup_logger(__file__)
 
@@ -21,25 +23,9 @@ logger, logname = setup_logger(__file__)
 # TODO: define some custom functions
 
 
-def myfunction():
-    print("Hello, Dr. Case! My define function will start off basic, and hopefully get more advanced.")
 
 
 
-
-
-
-# -------------------------------------------------------------
-# Call some functions and execute code!
-
-# This is very standard Python - it means
-# "If this module is the one being executed, i.e., the main module"
-# (as opposed to being imported by another module)
-# Literally: "if this module name == the name of the main module"
-if __name__ == "__main__":
-
-    # call your functions here (see instructions)
-    print("Replace this with calls to your functions." )
 
 
 
