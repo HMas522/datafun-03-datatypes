@@ -83,6 +83,43 @@ def illustrate_list_statistics():
     logger.info(f"stdev: {stdev:0.2f}")
     logger.info(f"variance: {variance:0.2f}")
 
+def illustrate_list_built_in_functions():
+    # BUILT-IN FUNCTIONS ......................................
+    # Many built-in functions work on lists
+    # try min(), max(), len(), sum(), sorted(), reversed()
+
+    # Using the score list provided above, do the following:
+    # Calcuate the max and min scores
+    max_value = max(age_list)
+    min_value = min(age_list)
+
+    logger.info(f"Given score list: {age_list}")
+    logger.info(f"The max() is {max_value}")
+    logger.info(f"The min() is {min_value}")
+
+    # Calculate the length of the list
+    len_list = len(age_list)
+    logger.info(f"The len() is {len_list}")
+
+    # Calculate the sum of the list
+    sum_list = sum(age_list)
+    logger.info(f"The sum() is {sum_list}")
+
+    # Calculate the average of the list
+    avg_list = sum_list / len_list
+    logger.info(f"The average is {avg_list}")
+
+    logger.info(f"Given score list: {age_list}")
+    # Return a new list soreted in ascending order
+    asc_age = sorted(age_list)
+    logger.info(f"Using the built-it function sorted(lst) gives: {asc_age}")
+
+    # Return a new list soreted in descending order
+    desc_age = sorted(age_list, reverse=True)
+    logger.info(
+        f"Using the built-in function sorted(lst,reverse=True) gives: {desc_age}")
+       
+
 def show_log():
     """Read log file and print it to the terminal"""
     with open(logname, "r") as file_wrapper:
