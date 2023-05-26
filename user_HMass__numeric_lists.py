@@ -37,29 +37,51 @@ if str_response == "y":
 # making a fake list of ages
 
 age_list = [
-    10
-    22
-    37
-    21
-    8
-    22
-    40
-    7
-    5
-    50
-    24
-    30
-    22
-    13
-    26
-    18
-    22
-    32
-    45
-    33
-    23
-]
+    10,
+    22,
+    37,
+    21,
+    8,
+    22,
+    40,
+    7,
+    5,
+    50,
+    24,
+    30,
+    22,
+    13,
+    26,
+    18,
+    22,
+    32,
+    45,
+    33,
+    23,
+    ]
 
+def illustrate_list_statistics():
+    """This function illustrates descriptive statistics for a numric list."""
+
+    logger.info(f"score_list: {age_list}")
+
+    # Descriptive: Averages and measures of central tendency
+    # Use statisttics module to get mean, median, mode
+    # for a values list
+
+    mean = statistics.mean(age_list)
+    median = statistics.median(age_list)
+    mode = statistics.mode(age_list)
+
+    logger.info(f"mean: {mean}")
+    logger.info(f"median: {median}")
+    logger.info(f"mode: {mode}")
+
+    stdev = statistics.stdev(age_list)
+    variance = statistics.variance(age_list)
+
+    logger.info(f"stdev: {stdev}")
+    logger.info(f"variance: {variance}")
 
 # Read log file and print it to the terminal
 with open(logname, 'r') as file_wrapper:
