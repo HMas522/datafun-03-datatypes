@@ -188,15 +188,14 @@ def illustrate_list_methods():
     # The last item in a list is at index -1
     last = new_age.pop(-1)
     logger.info(
-        f"Popped the last (index=-1): {last} and now, new_scores is: {new_age}"
+        f"Popped the last (index=-1): {last} and now, new_age is: {new_age}"
     )
 
     # Remove the item at index 3 from the new list
     fourth = new_age.pop(3)
     logger.info(
-        f"Popped the fourth (index=3): {fourth} and now, new_scores is: {new_age}"
+        f"Popped the fourth (index=3): {fourth} and now, new_age is: {new_age}"
     )
-
 
 def illustrate_list_transformations():
     """This function illustrates transformations that can be applied to a list"""
@@ -213,7 +212,7 @@ def illustrate_list_transformations():
     # Say "KEEP x such that x > 100 is True" given score_list
     # Cast the result using square brackets to get back a list
     ages_over_18 = [filter(lambda x: x > 18, age_list)]
-    logger.info(f"Scores over 100: {ages_over_18}")
+    logger.info(f"Ages over 18: {ages_over_18}")
 
     # Use the built-in function map() anywhere you need to transform a list
 
@@ -236,7 +235,6 @@ def illustrate_list_transformations():
     # cast the result to a list using square brackets
     area_list = [map(lambda r: math.pi * r * r, radius_list)]
     logger.info(f"Area of circles: {area_list}")
-
 
 def illustrate_list_comprehensions():
     """This function illustrates list comprehensions"""
@@ -312,6 +310,9 @@ if __name__ == "__main__":
     # call your functions here (see instructions)
     illustrate_list_statistics()
     illustrate_list_built_in_functions()
+    illustrate_list_methods()
+    illustrate_list_transformations()
+    illustrate_list_comprehensions()
     
     logger.info("Add more logging statements to the code to see what happens.")
     logger.info("Explore enough to understand.")
