@@ -63,7 +63,7 @@ age_list = [
 def illustrate_list_statistics():
     """This function illustrates descriptive statistics for a numric list."""
 
-    logger.info(f"score_list: {age_list}")
+    logger.info(f"age_list: {age_list}")
 
     # Descriptive: Averages and measures of central tendency
     # Use statisttics module to get mean, median, mode
@@ -73,16 +73,36 @@ def illustrate_list_statistics():
     median = statistics.median(age_list)
     mode = statistics.mode(age_list)
 
-    logger.info(f"mean: {mean}")
+    logger.info(f"mean: {mean:0.2f}")
     logger.info(f"median: {median}")
     logger.info(f"mode: {mode}")
 
     stdev = statistics.stdev(age_list)
     variance = statistics.variance(age_list)
 
-    logger.info(f"stdev: {stdev}")
-    logger.info(f"variance: {variance}")
+    logger.info(f"stdev: {stdev:0.2f}")
+    logger.info(f"variance: {variance:0.2f}")
 
-# Read log file and print it to the terminal
-with open(logname, 'r') as file_wrapper:
-    print(file_wrapper.read())
+def show_log():
+    """Read log file and print it to the terminal"""
+    with open(logname, "r") as file_wrapper:
+        print(file_wrapper.read())
+
+
+# -------------------------------------------------------------
+# Call some functions and execute code!
+
+# This is very standard Python - it means
+# "If this module is the one being executed, i.e., the main module"
+# (as opposed to being imported by another module)
+if __name__ == "__main__":
+    logger.info("Calling functions from main block")
+
+    # call your functions here (see instructions)
+    illustrate_list_statistics()
+    
+    logger.info("Add more logging statements to the code to see what happens.")
+    logger.info("Explore enough to understand.")
+    logger.info("Apply these skills to your own topic domain.")
+
+    show_log()
