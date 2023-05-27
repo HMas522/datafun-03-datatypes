@@ -91,17 +91,19 @@ def get_winner_message(userguess, botguess):
         return "We tied!"
     elif userguess == "fire":
         if botguess == "water":
-            return "Water beats fire - I win!"
+            return "water beats fire - I win!"
         else:
             return "Fire beats grass - You win!"
     elif userguess == "water":
         if botguess == "fire":
-            return "Water beats fire - You win!"
+            return "water beats fire - I win!"
+        else:
+            return "grass beats water - You win!"
     elif userguess == "grass":
         if botguess == "water":
-            return "Grass beats water - I win!"
+            return "grass beats water - I win!"
         else:
-            print("Grass beats water- You win!")
+            print("fire beats grass- You win!")
         
     # TODO: add the logic for scissors to complete the game
 
@@ -110,7 +112,7 @@ def play_game():
     """Play a game of pokemon!"""
     logger.info("Calling play_game()")
 
-    ready_for_continous_game = False  # TODO: change this when ready
+    ready_for_continous_game = True  # TODO: change this when ready
     logger.info(f"ready_for_continous_game = {ready_for_continous_game}")
 
     if not ready_for_continous_game:
@@ -157,7 +159,7 @@ def show_log():
 if __name__ == "__main__":
     logger.info("Calling functions from main block")
 
-    process_text_woodchuck()
+    process_text_pokemon_theme()
     create_random_sentence()
     create_random_sentence()
     play_game()
