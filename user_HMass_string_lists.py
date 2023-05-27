@@ -91,19 +91,19 @@ def get_winner_message(userguess, botguess):
         return "We tied!"
     elif userguess == "fire":
         if botguess == "water":
-            return "water beats fire - I win!"
+            return "Water beats fire - I win!"
         else:
-            return "Fire beats grass - You win!"
+            return "fire beats grass - You win!"
     elif userguess == "water":
         if botguess == "fire":
-            return "water beats fire - I win!"
+            return "Water beats fire - You win!"
         else:
-            return "grass beats water - You win!"
+            return "Grass beats water - I win!"
     elif userguess == "grass":
-        if botguess == "water":
-            return "grass beats water - I win!"
+        if botguess == "fire":
+            return "Fire beats grass - I win!"
         else:
-            print("fire beats grass- You win!")
+            return "Grass beats water - You win!"
         
     # TODO: add the logic for scissors to complete the game
 
