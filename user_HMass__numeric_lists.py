@@ -164,13 +164,13 @@ def illustrate_list_methods():
     lst.remove(item_to_remove)
 
     # Count how many times 22 appears in the list
-    ct_of_22 = age_list.count(22)
+    ct_of_twenty = age_list.count(22) # pyright: ignore
 
     # Sort the list in ascending order using the sort() method
-    asc_age2 = age_list.sort()
+    asc_age2 = age_list.sort() # pyright: ignore
 
     # Sort the list in descending order using the sort() method
-    desc_age2 = age_list.sort(reverse=True)
+    desc_age2 = age_list.sort(reverse=True) # pyright: ignore
 
     # Copy the list to a new list
     new_age = age_list.copy()
@@ -252,24 +252,25 @@ def illustrate_list_comprehensions():
     # Say "KEEP x (for each x in score_list) IF  x > 100"
     # Cast the result to a list using square brackets
 
-    ages_over_18 = [x for x in age_list if x > 18]
+    ages_over_18_= [x for x in age_list if x > 18] # pyright: ignore
     logger.info("Ages over 18 (using list comprehensions!): {ages_over_18}")
 
     # Try again "keep x (for each x in score_list) IF  x < 60"
-    ages_under_60 = [x for x in age_list if x < 60]
+
+    ages_under_60 = [x for x in age_list if x < 60] # pyright: ignore
     logger.info("Ages under 60 (using list comprehensions!): {ages_under_60}")
 
     # Map each element to its square
     # Say "give me x squared (for each x in score_list)"
     # Cast the result to a list using square brackets
 
-    doubled_age = [x * 2 for x in age_list]
+    doubled_age = [x * 2 for x in age_list] # pyright: ignore
     logger.info("Doubled scores (using list comprehensions!): {doubled_age}")
 
     # Map each element to its square root
     # Say "give me the square root of x (for each x in score_list)"
     # Cast the result to a list using square brackets
-    sqrt_age = [math.sqrt(x) for x in age_list]
+    sqrt_age = [math.sqrt(x) for x in age_list] # pyright: ignore
 
     radius_list = [1, 2, 3, 4, 5]
     logger.info(f"Given radius_list: {radius_list}")
