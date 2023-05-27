@@ -48,7 +48,7 @@ def process_text_pokemon_theme():
     """Read in text_pokemon_theme.txt and process it"""
     logger.info("Calling process_text_pokemon_theme()")
 
-    # read in woodchuck to get a list of words
+    # read in pokemon to get a list of words
     with open("text_pokemon_theme.txt", "r") as fileObject:
         text = fileObject.read()
         list_words = text.split()  # split on whitespace
@@ -66,6 +66,11 @@ def process_text_pokemon_theme():
         logger.info(f"The set of unique words is: {unique_words}")
         logger.info(f"There are {unique_word_ct} unique words in the file.")
 
+def create_tuple():
+    logger.info("Creating a tuple with two lists")
+
+    make_tuple = zip(list_rps,list_nouns) 
+    logger.info(f"Tuple: {make_tuple}")
 
 def create_random_sentence():
     """Create a random sentence from our pre-defined lists"""
@@ -112,7 +117,7 @@ def play_game():
     """Play a game of pokemon!"""
     logger.info("Calling play_game()")
 
-    ready_for_continous_game = True  # TODO: change this when ready
+    ready_for_continous_game = False  # TODO: change this when ready
     logger.info(f"ready_for_continous_game = {ready_for_continous_game}")
 
     if not ready_for_continous_game:
@@ -163,4 +168,5 @@ if __name__ == "__main__":
     create_random_sentence()
     create_random_sentence()
     play_game()
+    create_tuple()
     show_log()

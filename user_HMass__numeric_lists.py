@@ -164,13 +164,13 @@ def illustrate_list_methods():
     lst.remove(item_to_remove)
 
     # Count how many times 22 appears in the list
-    ct_of_twenty = age_list.count(22) # pyright: ignore
+    ct_of_twenty = age_list.count(22) 
 
     # Sort the list in ascending order using the sort() method
-    asc_age2 = age_list.sort() # pyright: ignore
+    asc_age2 = age_list.sort() 
 
     # Sort the list in descending order using the sort() method
-    desc_age2 = age_list.sort(reverse=True) # pyright: ignore
+    desc_age2 = age_list.sort(reverse=True) 
 
     # Copy the list to a new list
     new_age = age_list.copy()
@@ -252,7 +252,7 @@ def illustrate_list_comprehensions():
     # Say "KEEP x (for each x in score_list) IF  x > 100"
     # Cast the result to a list using square brackets
 
-    ages_over_18_= [x for x in age_list if x > 18] # pyright: ignore
+    ages_over_18_=[x for x in age_list if x > 18]
     logger.info("Ages over 18 (using list comprehensions!): {ages_over_18}")
 
     # Try again "keep x (for each x in score_list) IF  x < 60"
