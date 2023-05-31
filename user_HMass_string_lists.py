@@ -3,7 +3,7 @@ Hayley M
 26May23 
 Project 3 - Purpose: Illustrate string lists
 Domain: Video Games
-
+31Mar23 updated logging
 """
 
 import random
