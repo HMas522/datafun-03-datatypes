@@ -1,0 +1,33 @@
+2023-05-31 19:18:54,354 =============================================================
+2023-05-31 19:18:54,354 =============================================================
+2023-05-31 19:18:54,354 Today is 2023-05-31 at 07:18 PM
+2023-05-31 19:18:54,383 This file is running on: nt Windows 10
+2023-05-31 19:18:54,383 The Python version is: 3.11.3
+2023-05-31 19:18:54,383 The active conda environment is:  None
+2023-05-31 19:18:54,383 The active pip environment is:    None
+2023-05-31 19:18:54,383 The active environment path is:   C:\Users\Hayley\AppData\Local\Programs\Python\Python311
+2023-05-31 19:18:54,383 The current working directory is: C:\Users\Hayley\OneDrive\School 2023\GitHub\datafun-03-datatypes\datafun-03-datatypes
+2023-05-31 19:18:54,383 This source file is in:           c:\Users\Hayley\OneDrive\School 2023\GitHub\datafun-03-datatypes\datafun-03-datatypes
+2023-05-31 19:18:54,383 =============================================================
+2023-05-31 19:18:54,383 =============================================================
+2023-05-31 19:18:54,383 Calling functions from main block
+2023-05-31 19:18:54,383 tupleA = (1, 2, 3, 4, 5)
+2023-05-31 19:18:54,383 tupleB = (4, 5, 6, 7, 8)
+2023-05-31 19:18:54,383 tupleA = (1, 2, 3, 4, 5)
+2023-05-31 19:18:54,383 tupleB = (4, 5, 6, 7, 8)
+2023-05-31 19:18:54,383 tupleCat = (1, 2, 3, 4, 5, 4, 5, 6, 7, 8)
+2023-05-31 19:18:54,383 tupleAThrice = (1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5)
+2023-05-31 19:18:54,384 Quotient: 3, Remainder: 1
+2023-05-31 19:18:54,384 setA = {1, 2, 3, 4, 5}
+2023-05-31 19:18:54,384 setB = {4, 5, 6, 7, 8}
+2023-05-31 19:18:54,384 dogA_dict = {'name': 'Red XIII', 'age': 48, 'weight_kg': 13.4}
+2023-05-31 19:18:54,384 dogB_dict = {'name': 'Cait Sith', 'age': 99, 'weight_kg': 15.2}
+2023-05-31 19:18:54,384 assessment_dict = {'low': 0, 'medium': 1, 'high': 2}
+2023-05-31 19:18:54,384 data_dict = {'name': ['Cloud', 'Aerith', 'Sephiroth', 'Cid'], 'age': [21, 22, 30, 32], 'height': [173, 161, 186, 181]}
+2023-05-31 19:18:54,384 Word count is a good way to begin processing text.
+2023-05-31 19:18:54,384 Given text_simple.txt, the word_counts_dict = {'One': 1, 'heart': 3, 'two': 1, 'red': 1, 'blue': 1, 'heart.': 1}
+2023-05-31 19:18:54,384 Given text_simple.txt and comprehensions,
+2023-05-31 19:18:54,384 the the word_counts_dict2 = {'One': 1, 'heart': 3, 'two': 1, 'red': 1, 'blue': 1, 'heart.': 1}
+2023-05-31 19:18:54,384 Add more logging statements to the code to see what happens.
+2023-05-31 19:18:54,384 Explore enough to understand.
+2023-05-31 19:18:54,384 Apply these skills to your own topic domain.

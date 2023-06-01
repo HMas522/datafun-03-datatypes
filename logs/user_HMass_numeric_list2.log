@@ -1,0 +1,26 @@
+2023-05-26 19:05:39,531 =============================================================
+2023-05-26 19:05:39,531 =============================================================
+2023-05-26 19:05:39,531 Today is 2023-05-26 at 07:05 PM
+2023-05-26 19:05:39,554 This file is running on: nt Windows 10
+2023-05-26 19:05:39,554 The Python version is: 3.11.3
+2023-05-26 19:05:39,555 The active conda environment is:  None
+2023-05-26 19:05:39,555 The active pip environment is:    None
+2023-05-26 19:05:39,555 The active environment path is:   C:\Users\Hayley\AppData\Local\Programs\Python\Python311
+2023-05-26 19:05:39,558 The current working directory is: C:\Users\Hayley\OneDrive\School 2023\GitHub\datafun-03-datatypes\datafun-03-datatypes
+2023-05-26 19:05:39,558 This source file is in:           c:\Users\Hayley\OneDrive\School 2023\GitHub\datafun-03-datatypes\datafun-03-datatypes
+2023-05-26 19:05:39,558 =============================================================
+2023-05-26 19:05:39,558 =============================================================
+2023-05-26 19:05:54,307 Calling functions from main block
+2023-05-26 19:05:54,307 Age list: {age_list}
+2023-05-26 19:05:54,307 Ages over 18 (using list comprehensions!): {ages_over_18}
+2023-05-26 19:05:54,307 Ages under 60 (using list comprehensions!): {ages_under_60}
+2023-05-26 19:05:54,307 Doubled scores (using list comprehensions!): {doubled_age}
+2023-05-26 19:05:54,307 Given radius_list: [1, 2, 3, 4, 5]
+2023-05-26 19:05:54,308 Area of circles: [3.141592653589793, 12.566370614359172, 28.274333882308138, 50.26548245743669, 78.53981633974483]
+2023-05-26 19:05:54,308 Circumference of circles: [6.283185307179586, 12.566370614359172, 18.84955592153876, 25.132741228718345, 31.41592653589793]
+2023-05-26 19:05:54,308 Mastering comprehesions is a valuable skill for data scientists.
+2023-05-26 19:05:54,308 Given numbers: [1, 2, 3, 4]
+2023-05-26 19:05:54,308 Squares of numbers using [x ** 2 for x in numbers] is [1, 4, 9, 16]
+2023-05-26 19:05:54,308 Add more logging statements to the code to see what happens.
+2023-05-26 19:05:54,308 Explore enough to understand.
+2023-05-26 19:05:54,308 Apply these skills to your own topic domain.

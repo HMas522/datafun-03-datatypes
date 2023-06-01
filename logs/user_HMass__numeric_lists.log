@@ -1,0 +1,51 @@
+2023-05-31 19:18:35,325 =============================================================
+2023-05-31 19:18:35,325 =============================================================
+2023-05-31 19:18:35,325 Today is 2023-05-31 at 07:18 PM
+2023-05-31 19:18:35,354 This file is running on: nt Windows 10
+2023-05-31 19:18:35,354 The Python version is: 3.11.3
+2023-05-31 19:18:35,354 The active conda environment is:  None
+2023-05-31 19:18:35,354 The active pip environment is:    None
+2023-05-31 19:18:35,354 The active environment path is:   C:\Users\Hayley\AppData\Local\Programs\Python\Python311
+2023-05-31 19:18:35,354 The current working directory is: C:\Users\Hayley\OneDrive\School 2023\GitHub\datafun-03-datatypes\datafun-03-datatypes
+2023-05-31 19:18:35,354 This source file is in:           c:\Users\Hayley\OneDrive\School 2023\GitHub\datafun-03-datatypes\datafun-03-datatypes
+2023-05-31 19:18:35,354 =============================================================
+2023-05-31 19:18:35,354 =============================================================
+2023-05-31 19:18:39,328 Calling functions from main block
+2023-05-31 19:18:39,328 age_list: [10, 22, 37, 21, 8, 22, 40, 7, 5, 50, 24, 30, 22, 13, 26, 18, 22, 32, 45, 33, 23]
+2023-05-31 19:18:39,330 mean: 24.29
+2023-05-31 19:18:39,330 median: 22
+2023-05-31 19:18:39,330 mode: 22
+2023-05-31 19:18:39,330 stdev: 12.27
+2023-05-31 19:18:39,330 variance: 150.51
+2023-05-31 19:18:39,330 Given age list: [10, 22, 37, 21, 8, 22, 40, 7, 5, 50, 24, 30, 22, 13, 26, 18, 22, 32, 45, 33, 23]
+2023-05-31 19:18:39,330 The max() is 50
+2023-05-31 19:18:39,331 The min() is 5
+2023-05-31 19:18:39,331 The len() is 21
+2023-05-31 19:18:39,331 The sum() is 510
+2023-05-31 19:18:39,331 The average is 24.29
+2023-05-31 19:18:39,331 Given age list: [10, 22, 37, 21, 8, 22, 40, 7, 5, 50, 24, 30, 22, 13, 26, 18, 22, 32, 45, 33, 23]
+2023-05-31 19:18:39,331 Using the built-it function sorted(lst) gives: [5, 7, 8, 10, 13, 18, 21, 22, 22, 22, 22, 23, 24, 26, 30, 32, 33, 37, 40, 45, 50]
+2023-05-31 19:18:39,331 Using the built-in function sorted(lst,reverse=True) gives: [50, 45, 40, 37, 33, 32, 30, 26, 24, 23, 22, 22, 22, 22, 21, 18, 13, 10, 8, 7, 5]
+2023-05-31 19:18:39,331 new_age is: [50, 45, 40, 37, 33, 32, 30, 26, 24, 23, 22, 22, 22, 22, 21, 18, 13, 10, 8, 7, 5]
+2023-05-31 19:18:39,331 Popped the first (index=0): 50 and now, new_scores is: [45, 40, 37, 33, 32, 30, 26, 24, 23, 22, 22, 22, 22, 21, 18, 13, 10, 8, 7, 5]
+2023-05-31 19:18:39,331 Popped the last (index=-1): 5 and now, new_age is: [45, 40, 37, 33, 32, 30, 26, 24, 23, 22, 22, 22, 22, 21, 18, 13, 10, 8, 7]
+2023-05-31 19:18:39,331 Popped the fourth (index=3): 33 and now, new_age is: [45, 40, 37, 32, 30, 26, 24, 23, 22, 22, 22, 22, 21, 18, 13, 10, 8, 7]
+2023-05-31 19:18:39,331 Age list: {age_list}
+2023-05-31 19:18:39,331 Ages over 18: [<filter object at 0x0000019D485CEEF0>]
+2023-05-31 19:18:39,331 Doubled scores: [<map object at 0x0000019D485CFC70>]
+2023-05-31 19:18:39,331 Square root of scores: <map object at 0x0000019D485CF5E0>
+2023-05-31 19:18:39,331 Radius list: [1, 2, 3, 4, 5]
+2023-05-31 19:18:39,331 Area of circles: [<map object at 0x0000019D48606F80>]
+2023-05-31 19:18:39,331 Age list: {age_list}
+2023-05-31 19:18:39,331 Ages over 18 (using list comprehensions!): {ages_over_18}
+2023-05-31 19:18:39,331 Ages under 60 (using list comprehensions!): {ages_under_60}
+2023-05-31 19:18:39,331 Doubled scores (using list comprehensions!): {doubled_age}
+2023-05-31 19:18:39,332 Given radius_list: [1, 2, 3, 4, 5]
+2023-05-31 19:18:39,332 Area of circles: [3.141592653589793, 12.566370614359172, 28.274333882308138, 50.26548245743669, 78.53981633974483]
+2023-05-31 19:18:39,332 Circumference of circles: [6.283185307179586, 12.566370614359172, 18.84955592153876, 25.132741228718345, 31.41592653589793]
+2023-05-31 19:18:39,332 Mastering comprehesions is a valuable skill for data scientists.
+2023-05-31 19:18:39,332 Given numbers: [1, 2, 3, 4]
+2023-05-31 19:18:39,332 Squares of numbers using [x ** 2 for x in numbers] is [1, 4, 9, 16]
+2023-05-31 19:18:39,332 Add more logging statements to the code to see what happens.
+2023-05-31 19:18:39,332 Explore enough to understand.
+2023-05-31 19:18:39,332 Apply these skills to your own topic domain.
